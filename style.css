@@ -1,0 +1,143 @@
+/* 1. Header Image */
+.header-image {
+  height: 300px;
+  object-fit: cover;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+}
+
+.row > .col-lg-4 {
+  min-height: 200px;
+}
+
+.image-wrapper {
+  position: relative;
+  margin-bottom: 150px !important;
+}
+
+.top-image,
+.bottom-image {
+  max-width: 402px;
+  max-height: 290px;
+  object-fit: cover;
+  width: 402px;
+}
+
+.bottom-image {
+  z-index: -1;
+}
+
+.bottom-image {
+  position: absolute;
+  left: 50%;
+  bottom: 50%;
+  transform: translate(-420px, 280px);
+}
+
+.side-image {
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  bottom: -160px;
+  right: 150px;
+  object-fit: cover;
+}
+
+.header-image {
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.intro-container {
+  font-family: "Times New Roman", Times, serif;
+}
+.intro-container .col-lg-4 .content {
+  background: #d9d9d9;
+}
+.intro-container .col-lg-4 h4 {
+  text-transform: uppercase;
+}
+.speak-with-us-container .accordion .card {
+  border: none !important;
+  border-radius: 0 !important;
+}
+.speak-with-us-container .accordion .card .card-body {
+  padding: 1em 15px !important;
+}
+.speak-with-us-container .accordion .card .card-header {
+  padding: 0.75rem 15px !important;
+  background: #d9d9d9;
+}
+.speak-with-us-container .accordion .card .card-header div {
+  padding: 0 !important;
+  color: #000;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1201px) {
+  .side-image {
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    bottom: -160px;
+    right: 60px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .image-wrapper {
+    transform: translatex(100px);
+  }
+
+  .side-image {
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    bottom: -160px;
+    right: 50px;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 615px) {
+  .top-image,
+  .bottom-image {
+    max-width: 302px;
+    max-height: 250px;
+    object-fit: cover;
+    width: 302px;
+  }
+  .bottom-image {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-320px, 230px);
+  }
+
+  .side-image {
+    display: none;
+    margin: auto;
+    position: relative;
+  }
+}
+@media screen and (max-width: 415px) {
+  .top-image,
+  .bottom-image {
+    max-width: 250px;
+    max-height: 220px;
+    object-fit: cover;
+    width: 250px;
+  }
+  .bottom-image {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-320px, 230px);
+  }
+  .side-image {
+    display: none;
+    margin: auto;
+    position: relative;
+  }
+}
