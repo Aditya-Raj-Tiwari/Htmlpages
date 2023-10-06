@@ -1,41 +1,35 @@
 /* 1. Header Image */
-.header-image {
+.überuns-page-container .header-image {
   height: 300px;
   object-fit: cover;
   height: 400px;
   width: 400px;
   margin: auto;
 }
-
-.row > .col-lg-4 {
+.überuns-page-container .row > .col-lg-4 {
   min-height: 200px;
 }
-
-.image-wrapper {
+.überuns-page-container .image-wrapper {
   position: relative;
   margin-bottom: 150px !important;
 }
-
-.top-image,
-.bottom-image {
+.überuns-page-container .top-image,
+.überuns-page-container .bottom-image {
   max-width: 402px;
   max-height: 290px;
   object-fit: cover;
   width: 402px;
 }
-
-.bottom-image {
+.überuns-page-container .bottom-image {
   z-index: -1;
 }
-
-.bottom-image {
+.überuns-page-container .bottom-image {
   position: absolute;
   left: 50%;
   bottom: 50%;
   transform: translate(-420px, 280px);
 }
-
-.side-image {
+.überuns-page-container .side-image {
   position: absolute;
   width: 400px;
   height: 150px;
@@ -43,51 +37,52 @@
   right: 150px;
   object-fit: contain;
 }
-
-.header-image {
+.überuns-page-container .header-image {
   max-height: 400px;
   display: flex;
   justify-content: center;
 }
-
-.content {
+.überuns-page-container .content {
   min-height: 470px;
   border: 1px solid #ccc;
   margin: 10px;
   padding: 10px;
 }
-
-h5 {
+.überuns-page-container h5 {
   margin-top: 0;
 }
-.intro-container {
+.überuns-page-container .intro-container {
   font-family: "Times New Roman", Times, serif;
 }
-.intro-container .col-lg-4 .content {
+.überuns-page-container .intro-container .col-lg-4 .content {
   background: #d9d9d9;
 }
-.intro-container .col-lg-4 h4 {
+.überuns-page-container .intro-container .col-lg-4 h4 {
   text-transform: uppercase;
 }
-.speak-with-us-container .accordion .card {
+.überuns-page-container .speak-with-us-container .accordion .card {
   border: none !important;
   border-radius: 0 !important;
 }
-.speak-with-us-container .accordion .card .card-body {
+.überuns-page-container .speak-with-us-container .accordion .card .card-body {
   padding: 1em 15px !important;
 }
-.speak-with-us-container .accordion .card .card-header {
+.überuns-page-container .speak-with-us-container .accordion .card .card-header {
   padding: 0.75rem 15px !important;
   background: #d9d9d9;
 }
-.speak-with-us-container .accordion .card .card-header div {
+.überuns-page-container
+  .speak-with-us-container
+  .accordion
+  .card
+  .card-header
+  div {
   padding: 0 !important;
   color: #000;
   font-weight: bold;
 }
-
 @media screen and (max-width: 1201px) {
-  .side-image {
+  .überuns-page-container .side-image {
     position: absolute;
     width: 400px;
     height: 150px;
@@ -96,13 +91,11 @@ h5 {
     object-fit: cover;
   }
 }
-
 @media screen and (max-width: 991px) {
-  .image-wrapper {
+  .überuns-page-container .image-wrapper {
     transform: translatex(100px);
   }
-
-  .side-image {
+  .überuns-page-container .side-image {
     position: absolute;
     width: 300px;
     height: 150px;
@@ -112,41 +105,40 @@ h5 {
   }
 }
 @media screen and (max-width: 615px) {
-  .top-image,
-  .bottom-image {
+  .überuns-page-container .top-image,
+  .überuns-page-container .bottom-image {
     max-width: 302px;
     max-height: 250px;
     object-fit: cover;
     width: 302px;
   }
-  .bottom-image {
+  .überuns-page-container .bottom-image {
     position: absolute;
     left: 50%;
     bottom: 50%;
     transform: translate(-320px, 230px);
   }
-
-  .side-image {
+  .überuns-page-container .side-image {
     display: none;
     margin: auto;
     position: relative;
   }
 }
 @media screen and (max-width: 415px) {
-  .top-image,
-  .bottom-image {
+  .überuns-page-container .top-image,
+  .überuns-page-container .bottom-image {
     max-width: 250px;
     max-height: 220px;
     object-fit: cover;
     width: 250px;
   }
-  .bottom-image {
+  .überuns-page-container .bottom-image {
     position: absolute;
     left: 50%;
     bottom: 50%;
     transform: translate(-320px, 230px);
   }
-  .side-image {
+  .überuns-page-container .side-image {
     display: none;
     margin: auto;
     position: relative;
